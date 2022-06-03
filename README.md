@@ -68,7 +68,7 @@ If the latest version of the application wasn't yet pulled from [GitHub Releases
 Accepts a platform (like "darwin" or "win32") to download the appropriate copy your app for. I generally suggest using either `process.platform` ([more](https://nodejs.org/api/process.html#process_process_platform)) or `os.platform()` ([more](https://nodejs.org/api/os.html#os_os_platform)) to retrieve this string.
 
 If the cache isn't filled yet or doesn't contain a download link for the specified platform, it will respond like `/`.
-
+ 
 ### /update/:platform/:version
 
 Checks if there is an update available by reading from the cache.
